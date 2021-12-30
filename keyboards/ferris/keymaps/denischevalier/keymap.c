@@ -29,6 +29,7 @@ enum ferris_tap_dances {
 
 // Unicode map
 enum unicode_names {
+  // Accents
   _LEDIAE,
   _LECIRC,
   _LOE,
@@ -59,6 +60,7 @@ enum unicode_names {
   _UACIRC,
   _UIDIAE,
   _UNTILD,
+  // Single symbols
   _SBROPE,
   _SBRCLO,
   _COMMA,
@@ -68,6 +70,7 @@ enum unicode_names {
   _MIDDOT,
   _ANTISLASH,
   _BACKTICK,
+  // Emojis
   _FIRE,
   _RAISING_HANDS,
   _OK_HAND,
