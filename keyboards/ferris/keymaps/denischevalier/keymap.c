@@ -183,7 +183,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                             KC_TAB, KC_SPC, KC_ENT, KC_BSPC
   ),
   [_LAYER_SWITCH] = LAYOUT(
-    KC_SLCK,    KC_PSCR, KC_INS, KC_DEL, KC_ESC,          KC_NO,       KC_NO,     KC_NO,    KC_NO,       KC_NO,
+    KC_SLCK,    KC_PSCR, KC_INS, KC_DEL, KC_ESC,          DM_RSTP,     DM_REC1,   DM_PLY1,  DM_REC2,     DM_PLY2,
     KC_NO,      KC_NO,   KC_NO,  KC_NO,  TO(_EMOJI),      TO(_NUMPAD), TO(_MIDI), TO(_NAV), TO(_QWERTY), KC_TRNS,
     TO(_ALPHA), KC_NO,   KC_NO,  KC_NO,  KC_NO,           KC_NO,       KC_NO,     KC_NO,    KC_NO,       KC_NO,
                                         KC_TAB, KC_SPC, KC_ENT, KC_BSPC
