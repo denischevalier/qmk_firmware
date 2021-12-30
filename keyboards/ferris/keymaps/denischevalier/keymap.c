@@ -195,9 +195,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                             KC_TAB, KC_SPC, KC_ENT, KC_BSPC
   ),
   [_MIDI] = LAYOUT(
-    KC_NO,      KC_NO,   MI_Db_4, MI_Eb_4, KC_NO,     MI_Gb_4, MI_Ab_5, MI_Bb_5, KC_NO,  KC_NO,
-    MI_OCTD,    MI_C_4,  MI_D_4,  MI_E_4,  MI_F_4,    MI_G_4,  MI_A_5,  MI_B_5,  MI_C_5, MI_OCTU,
-    TO(_ALPHA), KC_NO,   KC_NO,   KC_NO,   KC_NO,     KC_NO,   KC_NO,   KC_NO,   KC_NO,  KC_NO,
+    SQ_ON,      SQ_OFF,  MI_Db_4, MI_Eb_4, KC_NO,     MI_Gb_4, MI_Ab_5, MI_Bb_5, SQ_TOG,  SQ_SALL,
+    MI_OCTD,    MI_C_4,  MI_D_4,  MI_E_4,  MI_F_4,    MI_G_4,  MI_A_5,  MI_B_5,  MI_C_5,  MI_OCTU,
+    TO(_ALPHA), SQ_S(1), SQ_S(2), SQ_S(3), SQ_S(4),   SQ_S(5), SQ_S(6), SQ_S(7), SQ_S(8), SQ_SCLR,
                                      KC_TAB, KC_SPC, KC_ENT, KC_BSPC
   ),
   [_NAV] = LAYOUT(
